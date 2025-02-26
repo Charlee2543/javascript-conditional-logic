@@ -1,6 +1,10 @@
 //Start coding here
 const greeting = "Hello ! 😁";
 
-greeting();
+function Greeting(answer) {
+	answer = answer + "\n" + "This line will be executed without any error.";
+	return answer;
+}
+console.log(Greeting(greeting));
 
-console.log("This line will be executed without any error.");
+// console.log(greeting + "\n" + "This line will be executed without any error.");
